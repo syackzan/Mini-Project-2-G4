@@ -10,8 +10,16 @@
     display: flex;
     justify-content: space-between;
     min-width: 300px;
-    background-color: var(--violet)
-    color: var(--white)
+    background-color: var(--violet);
+    color: var(--white);
+
+}
+
+.box-header{
+    border-radius: 15px;
+    padding: 10px;
+    width: 50px;
+    height: 20px;
 
 }
 
@@ -22,6 +30,7 @@ header {
     padding: 1%;
     background-color: var(--violet);
     color: var(--white);
+    border-radius: 15px;
   }
 
 footer {

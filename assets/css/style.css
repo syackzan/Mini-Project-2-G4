@@ -11,9 +11,18 @@
     justify-content: space-between;
     min-width: 300px;
     background-color: var(--violet)
-    color: 
+    color: var(--white)
 
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--violet);
+    color: var(--white);
+  }
 
 footer {
     display: flex;
@@ -27,4 +36,9 @@ footer {
     .box {
       flex-direction: column;
       color: var(--white);
+    
     }
+
+    main {
+        max-width: 1200px;
+      }

@@ -1,0 +1,30 @@
+:root{
+    --violet:  rgb(104, 7, 194);
+    --white: #fff;
+
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    background-color: var(--violet)
+    color: 
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: var(--violet);
+    color: var(--white);
+  }
+
+  @media screen and (max-width: 768px) {
+    .box {
+      flex-direction: column;
+      color: var(--white);
+    }
